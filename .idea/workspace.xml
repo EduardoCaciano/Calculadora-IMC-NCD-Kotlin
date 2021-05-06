@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9b1f49e-2332-49f5-8423-2783e1491227" name="Default Changelist" comment="" />
+    <list default="true" id="b9b1f49e-2332-49f5-8423-2783e1491227" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/imc-ds2m-a" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rq8hA0Zr75ua2odTilSBjYf2yO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,9 +39,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="913" y="256" key="FileChooserDialogImpl" timestamp="1619692411255">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="799" y="249" key="FileChooserDialogImpl" timestamp="1620297457368">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state x="799" y="249" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1620297457368" />
     <state x="913" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619692411255" />
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1620297392123">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1620297392123" />
   </component>
 </project>
