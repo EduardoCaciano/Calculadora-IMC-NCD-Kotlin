@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">IMC APP 2.0</string>
+
+    <!--    Strings Main Activity-->
+    <string name="main_title">Calculadora Saudável</string>
+    <string name="text_fazer_hoje">O que você deseja fazer hoje?</string>
+
+    <string-array name="faixa_de_idade" >
+        <item>Selecione uma opção:</item>
+        <item>Entre 18 a 30 anos</item>
+        <item>Entre 31 a 60 anos</item>
+        <item>Acima de 60 anos</item>
+
+    </string-array>
+    
+    <string-array name="nivel_atividade_fisica">
+        <item>Selecione uma opção:</item>
+        <item>Atividade Leve</item>
+        <item>Atividade Moderada</item>
+        <item>Atividade Intensa</item>
+
+    </string-array>
+
+
+
+</resources>
