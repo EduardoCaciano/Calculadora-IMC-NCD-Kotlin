@@ -102,7 +102,7 @@
             android:layout_gravity="center"/>
 
         <TextView
-            android:id="@+id/text_view_dica"
+            android:id="@+id/text_view_dica_ncd"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Movimente-se (1)

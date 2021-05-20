@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".ResultadoImcActivity"
+        tools:context=".ResultadoNcdActivity"
         android:background="@color/colorPrimary"
         >
 
@@ -83,7 +83,7 @@
             android:layout_gravity="center"/>
 
         <TextView
-            android:id="@+id/text_view_dica"
+            android:id="@+id/text_view_dica_ncd"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Procure manter a dieta de segunda à sexta-feira, mas cuidado com os excessos de final de semana. Comer de “tudo”, mas cuidar com as quantidades."

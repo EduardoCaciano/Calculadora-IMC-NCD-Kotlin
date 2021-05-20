@@ -109,7 +109,7 @@
                     style="@style/Widget.AppCompat.Spinner.Underlined"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:entries="@array/faixa_de_idade" />
+                    android:entries="@array/nivel_atividade_fisica" />
 
                 <Button
                     android:id="@+id/button_calcular_ncd"
