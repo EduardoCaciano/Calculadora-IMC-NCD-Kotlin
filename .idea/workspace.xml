@@ -10,16 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="177f64fc-0593-480b-8470-9820c9e9bcfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ResultadoNcdActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_wave.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/CalcularNcd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/CalcularNcd.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/NcdActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/NcdActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ResultadoImcActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ResultadoImcActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ncd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ncd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_imc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_imc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_ncd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_ncd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +62,11 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-13T10:53:48.305Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../italo/Projetos-android-kotlin/calculadoraIMC2.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-790929969">
+      <recent name="br.senai.sp.jandira.imcapp20_a" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.IMC APP 2.0 - A-app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -190,34 +193,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="679" y="165" key="#IMC_APP_2.0_-_A-app" timestamp="1622718636059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="165" key="#IMC_APP_2.0_-_A-app/0.0.1920.1040@0.0.1920.1040" timestamp="1622718636059" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622727219028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622727219028" />
     <state x="420" y="260" key="AndroidCreateResourceFileDialog" timestamp="1620909237157">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="420" y="260" key="AndroidCreateResourceFileDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1620909237157" />
-    <state x="709" y="268" key="FileChooserDialogImpl" timestamp="1621520558803">
+    <state x="709" y="268" key="FileChooserDialogImpl" timestamp="1622727231326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1620914014585" />
-    <state x="709" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621520558803" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1621519096545">
+    <state x="709" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622727231326" />
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1622724911313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621519096545" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1621519096545">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1622724911313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621519096545" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1621519096544">
+    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1622724911313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621519096544" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1621519096545">
+    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1622724911313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621519096545" />
-    <state x="183" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1621506931409">
+    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1622718605465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="183" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621506931409" />
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622718605465" />
   </component>
 </project>
