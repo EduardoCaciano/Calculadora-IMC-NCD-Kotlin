@@ -1,5 +1,7 @@
 package br.senai.sp.jandira.imcapp20_a
 
+import android.content.Context
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -22,6 +24,9 @@ class ResultadoImcActivity : AppCompatActivity() {
         txtImc.text = String.format("%.1f", imc)
 
         val resultados = obterStatus(imc)
+
+        // Armazenar os dados no preferences
+//        val editPreferences = SharedPreferences.Editor()
 
         txtStatus.text = resultados[0]
         txtStatusRisk.text = resultados[1]

@@ -18,17 +18,17 @@
         <TextView
             android:layout_width="220dp"
             android:layout_height="200dp"
-            android:text="Boa Forma"
-            android:textSize="46dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
             android:gravity="center"
-            android:layout_marginLeft="10dp"/>
+            android:text="Boa Forma"
+            android:textSize="46dp" />
 
         <View
             android:layout_width="150dp"
             android:layout_height="300dp"
             android:layout_alignParentEnd="true"
             android:background="@drawable/ic_baseline_person_24"/>
-
 
     </RelativeLayout>
 
@@ -39,44 +39,117 @@
         android:background="@drawable/ic_wave"
         android:layout_below="@+id/linear" />
 
+    <TextView
+        android:id="@+id/tv_mensagem_erro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagem_ondas"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_centerHorizontal="true"/>
+
     <RelativeLayout
+        android:id="@+id/login_senha"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/imagem_ondas">
 
         <EditText
             android:id="@+id/email"
-            android:layout_width="match_parent"
+            android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:padding="16dp"
             android:layout_marginTop="25dp"
-            android:hint="Seu Email"
-            android:inputType="textEmailAddress"/>
+            android:hint="Email"
+            android:background="@drawable/edit_text_background_login"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawableTint="@color/colorPrimaryDark"/>
 
         <EditText
             android:id="@+id/senha"
-            android:layout_width="match_parent"
+            android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:padding="16dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="26dp"
-            android:hint="Sua Senha"
+            android:hint="Senha"
             android:layout_below="@+id/email"
-            android:background="@drawable/edit_text_background"
-            android:inputType="textPassword"/>
+            android:background="@drawable/edit_text_background_login"
+            android:inputType="textPassword"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/cadeado"
+            android:drawableTint="@color/colorPrimaryDark"/>
 
         <Button
-            android:layout_width="200dp"
+            android:id="@+id/login"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/senha"
             android:layout_centerHorizontal="true"
+            android:background="@drawable/button_backgroud_login"
             android:layout_marginTop="20dp"
             android:text="Login"/>
 
+        <CheckBox
+            android:id="@+id/button_lembrar_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lembrar minha senha"
+            android:layout_below="@+id/login"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginTop="16dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tv_esqueceu_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esqueceu a senha?"
+            android:layout_below="@id/button_lembrar_senha"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="8dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:id="@+id/tv_novo_aqui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Novo por aqui?"
+            android:layout_below="@id/tv_esqueceu_senha"
+            android:layout_marginTop="24dp"
+            android:layout_toStartOf="@id/criar_conta"
+            android:textColor="@android:color/tab_indicator_text"/>
+
+        <TextView
+            android:id="@+id/criar_conta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Criar conta"
+            android:layout_below="@+id/tv_esqueceu_senha"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/holo_blue_dark"/>
     </RelativeLayout>
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvido por D2M-A"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"/>
 
 </RelativeLayout>
+
+
