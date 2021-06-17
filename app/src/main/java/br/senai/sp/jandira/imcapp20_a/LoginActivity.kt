@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         } else {
-            tvMensagemErro.text = "Usuário ou senha incorretos!"
+            tvMensagemErro.text = "Usuário ou senha incorretos!!!"
         }
     }
 }

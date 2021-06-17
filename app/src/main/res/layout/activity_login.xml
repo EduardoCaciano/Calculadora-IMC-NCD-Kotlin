@@ -9,7 +9,7 @@
     <RelativeLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:background="@color/colorPrimary"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -19,23 +19,26 @@
             android:layout_width="220dp"
             android:layout_height="200dp"
             android:layout_marginLeft="10dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/alfa_slab_one"
             android:gravity="center"
-            android:text="Boa Forma"
-            android:textSize="46dp" />
+            android:text="Health Calc"
+            android:textSize="43dp"
+            android:textColor="#FFFFFF"/>
 
         <View
-            android:layout_width="150dp"
-            android:layout_height="300dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
             android:layout_alignParentEnd="true"
-            android:background="@drawable/ic_baseline_person_24"/>
+            android:background="@drawable/ncd"/>
 
     </RelativeLayout>
 
     <View
         android:id="@+id/imagem_ondas"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:background="@drawable/ic_wave"
         android:layout_below="@+id/linear" />
 
@@ -44,15 +47,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/imagem_ondas"
-        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"
         android:textColor="@android:color/holo_red_light"
-        android:layout_centerHorizontal="true"/>
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:id="@+id/login_senha"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/imagem_ondas">
+        android:layout_below="@id/tv_mensagem_erro">
+
+        <TextView
+            android:id="@+id/nome_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Login"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_faca_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/nome_login"
+            android:text="Faça login para continuar"
+            android:textSize="15sp"/>
 
         <EditText
             android:id="@+id/email"
@@ -62,7 +83,8 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:padding="16dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="95dp"
+            android:layout_below="@+id/view_faca_login"
             android:hint="Email"
             android:background="@drawable/edit_text_background_login"
             android:inputType="textEmailAddress"
@@ -125,7 +147,7 @@
             android:layout_height="wrap_content"
             android:text="Novo por aqui?"
             android:layout_below="@id/tv_esqueceu_senha"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="10dp"
             android:layout_toStartOf="@id/criar_conta"
             android:textColor="@android:color/tab_indicator_text"/>
 
@@ -133,14 +155,23 @@
             android:id="@+id/criar_conta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Criar conta"
+            android:text="Criar uma conta agora"
             android:layout_below="@+id/tv_esqueceu_senha"
             android:layout_marginStart="4dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
             android:layout_alignParentEnd="true"
             android:textColor="@android:color/holo_blue_dark"/>
     </RelativeLayout>
+
+    <View
+        android:id="@+id/imagem_ondas_final"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_wave_final"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorPrimary"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -148,7 +179,8 @@
         android:text="Desenvolvido por D2M-A"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="2dp"
+        android:textColor="#FFFFFF"/>
 
 </RelativeLayout>
 
