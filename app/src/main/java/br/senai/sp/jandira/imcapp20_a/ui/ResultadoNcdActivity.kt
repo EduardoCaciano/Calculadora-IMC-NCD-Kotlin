@@ -1,8 +1,11 @@
-package br.senai.sp.jandira.imcapp20_a
+package br.senai.sp.jandira.imcapp20_a.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import br.senai.sp.jandira.imcapp20_a.R
+import br.senai.sp.jandira.imcapp20_a.calcularNcd
+import br.senai.sp.jandira.imcapp20_a.getDicaDoDiaNcd
 
 class ResultadoNcdActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +20,12 @@ class ResultadoNcdActivity : AppCompatActivity() {
         val nivelAtividade = intent.getIntExtra("nivelAtividade", 0)
         val sexo = intent.getCharExtra("sexo", 'm')
 
-        val ncd = calcularNcd(peso, idade, nivelAtividade, sexo)
+        val ncd = calcularNcd(
+            peso,
+            idade,
+            nivelAtividade,
+            sexo
+        )
 
         txtNcd.text = String.format("%.1f", ncd)
 

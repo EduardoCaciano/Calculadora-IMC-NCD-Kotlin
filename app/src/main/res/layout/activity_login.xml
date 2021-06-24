@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".ui.LoginActivity">
 
     <RelativeLayout
         android:id="@+id/linear"
@@ -22,7 +22,7 @@
             android:fontFamily="@font/alfa_slab_one"
             android:gravity="center"
             android:text="Health Calc"
-            android:textSize="43dp"
+            android:textSize="37dp"
             android:textColor="#FFFFFF"/>
 
         <View
@@ -148,11 +148,11 @@
             android:text="Novo por aqui?"
             android:layout_below="@id/tv_esqueceu_senha"
             android:layout_marginTop="10dp"
-            android:layout_toStartOf="@id/criar_conta"
+            android:layout_toStartOf="@id/tv_crie_sua_conta"
             android:textColor="@android:color/tab_indicator_text"/>
 
         <TextView
-            android:id="@+id/criar_conta"
+            android:id="@+id/tv_crie_sua_conta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Criar uma conta agora"

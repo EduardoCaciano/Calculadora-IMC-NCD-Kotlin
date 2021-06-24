@@ -12,64 +12,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="177f64fc-0593-480b-8470-9820c9e9bcfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/ic_grafico-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/DashBoardActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/header_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_grafico_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_wave_final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alfa_slab_one.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/baloo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_bold.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_medium.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dash_board.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_grafico.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_grafico_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_grafico_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_grafico_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_grafico_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_grafico_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_grafico_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_grafico_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_grafico_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_grafico_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_grafico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_grafico_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_grafico_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/NovoUsuarioActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_novo_usuario.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/DashBoardActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/DashBoardActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ImcActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/ImcActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/NcdActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/NcdActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ResultadoImcActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/ResultadoImcActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ResultadoNcdActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/ResultadoNcdActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dash_board.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dash_board.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_imc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_imc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ncd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ncd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_imc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_imc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_ncd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_ncd.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +83,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.-575644986">
+      <recent name="br.senai.sp.jandira.imcapp20_a" />
+    </key>
     <key name="android.template.-790929969">
       <recent name="br.senai.sp.jandira.imcapp20_a" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.senai.sp.jandira.imcapp20_a.ui" />
     </key>
     <key name="android.template.1263586673">
       <recent name="br.senai.sp.jandira.imcapp20_a" />
@@ -262,6 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623936201509" />
+    <state x="733" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1624534723408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624534723408" />
     <state x="480" y="268" key="AndroidCreateResourceFileDialog" timestamp="1623934208269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,29 +247,29 @@
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1620914014585" />
     <state x="709" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623939494484" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1622724911313">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1624536008636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1622724911313">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624536008636" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1624536008636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1622724911313">
+    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624536008636" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1624536008635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1622724911313">
+    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624536008635" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1624536008636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622724911313" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624536008636" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1623934162867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623934162867" />
-    <state x="183" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1623926139310">
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1624531300529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="183" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623926139310" />
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624531300529" />
   </component>
 </project>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DashBoardActivity">
+    tools:context=".ui.DashBoardActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/header"
@@ -25,14 +25,14 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/iv_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@mipmap/ic_grafico_foreground" />
+                app:srcCompat="@mipmap/ic_grafico_foreground" />
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tv_prodile_name"
+            android:id="@+id/tv_profile_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -51,13 +51,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Jogador"
+            android:text="Jogador do Paris Saint-Germain"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@+id/tv_prodile_name"
-            app:layout_constraintStart_toStartOf="@+id/tv_prodile_name"
-            app:layout_constraintTop_toBottomOf="@+id/tv_prodile_name" />
+            app:layout_constraintEnd_toEndOf="@+id/tv_profile_name"
+            app:layout_constraintStart_toStartOf="@+id/tv_profile_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_profile_name" />
 
         <TextView
             android:id="@+id/tv_imc"
@@ -157,6 +157,20 @@
             app:layout_constraintEnd_toEndOf="@+id/tv_weight"
             app:layout_constraintStart_toStartOf="@+id/tv_weight"
             app:layout_constraintTop_toBottomOf="@+id/tv_weight" />
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/baloo"
+            android:text="Sair"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#F65959"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.cardview.widget.CardView

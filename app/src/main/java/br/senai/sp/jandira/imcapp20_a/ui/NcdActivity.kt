@@ -1,4 +1,4 @@
-package br.senai.sp.jandira.imcapp20_a
+package br.senai.sp.jandira.imcapp20_a.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.Spinner
+import br.senai.sp.jandira.imcapp20_a.R
 
 class NcdActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
