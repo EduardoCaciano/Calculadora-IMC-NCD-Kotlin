@@ -12,25 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="177f64fc-0593-480b-8470-9820c9e9bcfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/NovoUsuarioActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_novo_usuario.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/dao/ImcDataBase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/dao/UsuarioDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/model/Biometria.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/model/Usuario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/DashBoardActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/DashBoardActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ImcActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/ImcActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/NcdActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/NcdActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ResultadoImcActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/ResultadoImcActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ResultadoNcdActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/ResultadoNcdActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dash_board.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dash_board.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_imc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_imc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ncd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ncd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_imc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_imc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_ncd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado_ncd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/NovoUsuarioActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/senai/sp/jandira/imcapp20_a/ui/NovoUsuarioActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_novo_usuario.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_novo_usuario.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +50,8 @@
         <option value="layoutResourceFile" />
         <option value="Kotlin File" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="resourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -225,6 +214,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="165" key="#IMC_APP_2.0_-_A-app/0.0.1920.1040@0.0.1920.1040" timestamp="1622718636059" />
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1625144000915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625144000915" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623936201509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,9 +260,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623934162867" />
-    <state x="183" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1624531300529">
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1625136043967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="183" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624531300529" />
+    <state x="183" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625136043967" />
   </component>
 </project>

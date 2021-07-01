@@ -19,7 +19,7 @@ class NovoUsuarioActivity : AppCompatActivity() {
             editor.putString("nome", et_nome.text.toString())
             editor.putString("profissao", et_profissao.text.toString())
             editor.putInt("peso", et_peso.text.toString().toInt())
-            editor.putInt("idade", et_idade.text.toString().toInt())
+            editor.putInt("idade", et_data_nascimento.text.toString().toInt())
             editor.putString("email", et_email.text.toString())
             editor.putString("senha", et_senha.text.toString())
             editor.apply()

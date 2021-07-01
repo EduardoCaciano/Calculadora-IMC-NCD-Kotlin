@@ -15,8 +15,8 @@
         android:hint="Nome"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/et_profissao"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="14dp" />
+        app:layout_constraintTop_toBottomOf="@+id/et_senha"
+        tools:layout_editor_absoluteX="16dp" />
 
     <EditText
         android:id="@+id/et_profissao"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_profissao" />
 
     <EditText
-        android:id="@+id/et_idade"
+        android:id="@+id/et_data_nascimento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -61,7 +61,7 @@
         android:text="Button"
         app:layout_constraintEnd_toEndOf="@+id/et_senha"
         app:layout_constraintStart_toStartOf="@+id/et_senha"
-        app:layout_constraintTop_toBottomOf="@+id/et_senha" />
+        app:layout_constraintTop_toBottomOf="@+id/et_data_nascimento" />
 
     <EditText
         android:id="@+id/et_senha"
@@ -79,11 +79,11 @@
         android:id="@+id/et_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="@+id/et_idade"
-        app:layout_constraintStart_toStartOf="@+id/et_idade"
-        app:layout_constraintTop_toBottomOf="@+id/et_idade" />
+        app:layout_constraintEnd_toEndOf="@+id/et_data_nascimento"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_data_nascimento"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
